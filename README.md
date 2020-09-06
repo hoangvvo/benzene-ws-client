@@ -1,10 +1,11 @@
 # benzene-ws-client
 
-Super ligt
+[![npm](https://badgen.net/npm/v/@benzene/worker)](https://www.npmjs.com/package/@benzene/worker)
+[![minizipped](https://badgen.net/bundlephobia/minzip/benzene-ws-client)](https://bundlephobia.com/result?p=benzene-ws-client)
 
-> This package is only experimental and not tested.
+> This package is only experimental and not tested. Only works with `@benzene/ws` for now.
 
-Only works with `@benzene/ws` for now.
+The *tiny* client for the [modified GraphQL over WebSocket Protocol](https://github.com/hoangvvo/benzene/blob/main/packages/ws/PROTOCOL.md).
 
 ## Install
 
@@ -50,7 +51,5 @@ const link = new WebSocketLink(subscriptionClient);
 
 | option | description | default |
 | --- | --- | --- |
-| reconnectionAttempts | Number of attempts to try reconnect on disconnection. Set to `0` to disable | `0` (disabled) |
+| reconnectionAttempts | Number of attempts to try reconnect on disconnection. | `0` (disabled) |
 | genId | A function to generate unique subscription ids. Default to incremental ids. | `undefined` |
-
-
