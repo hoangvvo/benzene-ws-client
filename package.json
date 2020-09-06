@@ -1,0 +1,22 @@
+{
+  "name": "benzene-ws-client",
+  "version": "0.0.0",
+  "description": "Tiny WebSocket client for GraphQL over WebSocket Protocol",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": "git@github.com:hoangvvo/benzene-ws-client.git",
+  "author": "Hoang Vo (https://hoangvvo.com/)",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "graphql": "^15.3.0"
+  },
+  "devDependencies": {
+    "graphql": "^15.3.0"
+  }
+}
